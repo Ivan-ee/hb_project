@@ -95,9 +95,8 @@ th {
 .table {
     width: 100%;
     margin-bottom: 7%;
-    font-size: 26px;
-    display: flex;
-    justify-content: center;
+    font-size: 32px;
+    text-align: center;
 }
 
 h1 {
@@ -106,12 +105,13 @@ h1 {
 }
 
 td, th {
-    /*font-family: 'SF Pro Text';*/
+    color: rgb(157, 157, 159);
     font-weight: lighter;
     letter-spacing: 1.2px;
     white-space: nowrap;
-    text-align: center;
+    width: 50%;
 }
+
 
 .bottom {
     font-size: 26px;
@@ -122,7 +122,7 @@ td, th {
 button {
     padding: 10px 20px;
     border-radius: 12px;
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 7%;
     background-color: rgb(94, 95, 97);
     border-color: rgb(94, 95, 97);
