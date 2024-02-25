@@ -3,6 +3,11 @@
     src: url('fonts/SF-Pro-Display-Regular.otf');
 }
 
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('fonts/SF-Pro-Display-Ultralight.otf');
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -101,6 +106,8 @@ h1 {
 }
 
 td, th {
+    font-family: 'SF Pro Text';
+    letter-spacing: 1.2px;
     white-space: nowrap;
     text-align: center;
 }
