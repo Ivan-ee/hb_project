@@ -121,7 +121,7 @@ h1 {
     color: rgb(157, 157, 159);
 }
 
-button {
+.button {
     padding: 15px 30px;
     border-radius: 18px;
     font-size: 30px;
@@ -130,6 +130,10 @@ button {
     border-color: rgb(94, 95, 97);
     color: rgb(233, 233, 234);
     border-width: inherit;
+}
+
+.link{
+    color: rgb(157, 157, 159);
 }
 
 @-webkit-keyframes AnimateBG {
