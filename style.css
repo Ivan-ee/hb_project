@@ -112,9 +112,6 @@ h1 {
     text-align: center;
 }
 
-
-
-
 .bottom {
     font-size: 26px;
     text-align: center;
@@ -132,9 +129,20 @@ h1 {
     border-width: inherit;
 }
 
+.button:active{
+    transition: all 0.5s;
+    background-color: rgb(70, 70, 70);
+}
+
 .link{
     color: rgb(157, 157, 159);
 }
+
+.link:active{
+    color: rgb(70, 70, 70);
+}
+
+
 
 @-webkit-keyframes AnimateBG {
     0% {
