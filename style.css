@@ -28,7 +28,6 @@ body, html {
 }
 
 
-
 .img {
     margin: 12% 0;
     text-align: center;
@@ -51,6 +50,19 @@ body, html {
     justify-content: center;
     align-items: center;
     border: 2px solid rgb(111, 111, 115);
+}
+
+.title {
+    margin: 0;
+    font-size: 64px;
+}
+
+.title-bottom {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 7%;
+    margin-top: 1%;
+    color: rgb(164, 164, 164);
 }
 
 .container {
@@ -95,7 +107,8 @@ td {
 }
 
 th {
-    color: rgb(233, 233, 234); !important;
+    color: rgb(233, 233, 234);
+!important;
     padding-right: 2%;
     text-align: right !important;
 }
@@ -129,19 +142,18 @@ h1 {
     border-width: inherit;
 }
 
-.button:active{
+.button:active {
     transition: all 0.5s;
     background-color: rgb(70, 70, 70);
 }
 
-.link{
+.link {
     color: rgb(157, 157, 159);
 }
 
-.link:active{
+.link:active {
     color: rgb(70, 70, 70);
 }
-
 
 
 @-webkit-keyframes AnimateBG {
@@ -168,9 +180,48 @@ h1 {
     }
 }
 
-/*@media screen and (min-width: 768px) {*/
-/*    .container{*/
-/*        width: 20%;*/
-/*        padding: 6% 6% 10%;*/
-/*    }*/
-/*}*/
+@media screen and (min-width: 1020px) {
+    .container {
+        width: 20%;
+        padding: 4% 4% 4%;
+    }
+
+    .title{
+        font-size: 42px;
+    }
+
+    .title-bottom{
+        font-size: 22px;
+    }
+
+    .img {
+        margin: 6% 0;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .img img {
+        width: 40%;
+    }
+
+    .table {
+        margin-bottom: 8%;
+        font-size: 20px;
+    }
+
+    .bottom {
+        font-size: 20px;    
+    }
+
+    .button {
+        padding: 9px 20px;
+        border-radius: 18px;
+        font-size: 20px;
+        margin-bottom: 8%;
+        background-color: rgb(94, 95, 97);
+        border-color: rgb(94, 95, 97);
+        color: rgb(233, 233, 234);
+        border-width: inherit;
+    }
+
+}
